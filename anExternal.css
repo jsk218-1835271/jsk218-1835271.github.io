@@ -1,0 +1,46 @@
+/* Our CSS Document */
+
+body  {
+  background-image: url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-color: #cccccc;
+}
+
+.seattleImg {
+	height: 50px;
+	width: 50px;
+}
+
+#seattlePlaces {
+	position: relative;
+}
+
+#seattleLandmarks {
+	width: 100%;
+	height: auto;
+	margin: 20px;
+}
+
+#seattleText {
+	left: 50%;
+	border-style: dotted;
+	text-shadow: 5px 5px 5px pink;
+	position:absolute;
+	text-align:center;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%); /* iOS */
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#floatedCoffee {
+	float: right;
+	background: #73AD21;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	border-radius: 25px;
+}
+
+#coffeeImg{
+	width: 150px;
+}
