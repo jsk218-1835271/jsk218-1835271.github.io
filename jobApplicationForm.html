@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Healthcare Job Application</title>
+	</head>
+	<body>
+		<div="mainContent">
+			<h1>Healthcare Job Application</h1>
+			<p>If you are interested in working in the medical field/environment bringing impact to people's lives, please fill out this application or contact if you have any questions or concerns.</p>
+			<div class-"formClass">
+					<form name="input" action="http://formspree.io/mgeaqkal" method="post">
+						<fieldset>
+							<legend>Basic Info</legend>
+								<label>Full Name:</label> <input type="text" name="Name"/><br/><br/>
+								<label>Email:</label> <input type="email" name="_replyto"><br/><br/>
+							</fieldset>
+							
+						<fieldset>
+							<legend>Short Essay</legend>
+							<label>Please tell us why you're interested in this job. What do you want to bring to our team?</label><br/> <textarea name="essay">Enter here</textarea><br/><br/>
+						
+						</fieldset>
+						
+						<fieldset>
+							<legend>Experience</legend>
+							<label>What is your level of experience?</label><br/>
+						<input type="radio" name="LevelOfExperience" value="No experience"> No experience<br> <input type="radio" name="LevelOfExperience" value="Some experience"> Some experience<br/> <input type="radio" name="LevelOfExperience" value="Very experienced"> Very experienced<br/><br/>
+						
+						</fieldset>
+						
+						<fieldset>
+							<legend>Scheduling and Interests</legend>
+							<label>What kind of healthcare work are you interested in? (Check all that apply)</label><br/>
+							<input type="checkbox" name="Fields Interested" value="Administrative">Administrative<br/><input type="checkbox" name="Fields Interested" value="Custodial">Custodial<br/><input type="checkbox" name="Fields Interested" value="Direct Patient Care">Direct Patient Care<br/><input type="checkbox" name="Fields Interested" value="Gift Shop">Gift Shop<br/><br/>
+							<label>How many hours can you work per week?</label><br/>
+							<select name="hours"> <option value="5-10">5-10</option> <option value="10-15">10-15</option> <option value="15-20">15-20</option> <option value="20-25">20-25</option> </select><br/><br/>
+							<label>What days of the week can you work?</label><br/>
+							<label for="days">Choose days:</label>
+							<select id="days">
+  							<optgroup label="Week days">
+  						    <option value="Monday-Wednesday">Monday-Wednesday</option>
+     						<option value="Wednesday-Friday">Wednesday-Friday</option>
+  							</optgroup>
+ 							<optgroup label="Weekends">
+    						<option value="Saturday-Sunday">Saturday-Sunday</option>
+  							</optgroup>
+							</select>
+
+							
+						<fieldset/>
+							<input type="submit" value="Send">
+							
+					</form>
+		</div>
+	</body>
+</html>
